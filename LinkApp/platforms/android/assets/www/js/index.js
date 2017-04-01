@@ -40,6 +40,17 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        var contact1 = new Contact("Klaas", "img/logo.png");
+        var contact2 = new Contact("Klaas", "img/logo.png");
+        var contact3 = new Contact("Klaas", "img/logo.png");
+
+        var contacts = [contact1, contact2, contact3];
+
+        for(var i = 0; i++; contacts.length)
+        {
+            contacts[i].init();
+        }
     }
 };
 

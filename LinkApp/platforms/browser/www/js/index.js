@@ -40,6 +40,22 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        var contactContainer = document.getElementById("contacts");
+
+        var contact1 = new Contact("Klaas", "img/logo.png");
+        var contact2 = new Contact("Klaas", "img/logo.png");
+        var contact3 = new Contact("Klaas", "img/logo.png");
+
+        var contacts = [contact1, contact2, contact3];
+
+        console.log(contacts.length);
+
+        for(var i = 0; i < contacts.length; i++)
+        {
+            contacts[i].init(contactContainer);
+            console.log(contacts[i]);
+        }
     }
 };
 
