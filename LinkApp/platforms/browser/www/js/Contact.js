@@ -4,11 +4,10 @@ function Contact(name, imgSrc)  {
     this.imgSrc = imgSrc;
 
     this.object = "";
+    this.infoContent = "";
 
     this.init = function (parent)
     {
-        console.log("initialize");
-
         this.object = document.createElement("li");
         var img = document.createElement("img");
         img.src = imgSrc;
@@ -19,15 +18,15 @@ function Contact(name, imgSrc)  {
         headerContent.appendChild(img);
         headerContent.appendChild(header);
 
-        var infoContent = document.createElement("div");
-        infoContent.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eos esse est excepturi " +
+        this.infoContent = document.createElement("div");
+        this.infoContent.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eos esse est excepturi " +
             "facere impedit ipsam, labore nam, natus placeat quas soluta vel veniam! Autem fugit ipsa minima numquam provident!";
 
+        this.infoContent.classList.add("is-hidden");
+
         this.object.appendChild(headerContent);
-        this.object.appendChild(infoContent);
+        this.object.appendChild(this.infoContent);
 
         parent.appendChild(this.object);
-
-        console.log("contacts initialized");
     };
 }
