@@ -101,22 +101,26 @@ body {
     left: -webkit-calc(50% - 50px);
     /* Standard */
     left: calc(50% - 50px);
+    z-index: 20;
 }
 
 #btn-container {
     position: absolute;
     width: 100%;
     bottom: 10%;
+    z-index: 20;
 }
 
 #btn-container::after {
     content: "";
     position: absolute;
     height: 2px;
-    width: 40%;
+    width: 20%;
     top: 50px;
     left: 10%;
+    z-index: 10;
     background-color: red;
+    transform: rotate(180deg);
 }
 
 #btn-container::before {
@@ -125,6 +129,7 @@ body {
     height: 250px;
     width: 2px;
     top: -200px;
+    z-index: 10;
     left: 10%;
     background-color: red;
 }
