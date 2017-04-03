@@ -50,7 +50,7 @@ table {
 /** START CSS **/
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #contacts-container {
@@ -58,13 +58,45 @@ body {
 }
 
 #contacts {
+    max-width: 0;
     margin-left: 10%;
     margin-right: 10%;
+    overflow: hidden;
+    transition: all 1s ease-in;
+    transition-delay: 2s;
+    border: 2px solid white;
+    background: whitesmoke;
+    z-index: 9001;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#contacts.is-open {
+    border: 2px solid darkgrey;
+}
+
+
+
+
+
+.is-open#contacts {
+    max-width: 100%;
+}
+
+#contacts h2, #contacts p {
+    color: white;
+    transition: color 2s ease-in;
+    transition-delay: 2s;
+}
+
+.is-open#contacts h2, .is-open#contacts p{
+    color: black;
 }
 
 #contacts li {
     width: 25%;
     display: inline-block;
+    text-align: center;
 }
 
 #contacts li h2 {
@@ -91,7 +123,7 @@ body {
     margin-right: auto;
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-color: #47A74C;
     color: white;
     border-radius: 50%;
     border: none;
@@ -102,6 +134,14 @@ body {
     /* Standard */
     left: calc(50% - 50px);
     z-index: 20;
+    text-align: center;
+    line-height: 100px;
+    transition: all 0.3s ease-in;
+    box-shadow: inset 0px 0px 0px 0px rgba(1,228,99,1);;
+}
+
+#btn-contact.is-open {
+    box-shadow: inset 0px 0px 0px 5px rgba(1,228,99,1);;
 }
 
 #btn-container {
@@ -117,7 +157,7 @@ body {
     height: 2px;
     top: 50px;
     z-index: 10;
-    background-color: red;
+    background-color: darkgrey;
     transform: rotate(180deg);
     transition: all 1s ease-in-out;
     left: 50%;
@@ -130,8 +170,8 @@ body {
 }
 
 .is-open#btn-container::before {
-    height: 250px;
-    top: -200px;
+    height: 820px;
+    top: -770px;
 }
 
 #btn-container::before {
@@ -144,8 +184,21 @@ body {
     top: 50px;
     z-index: 10;
     left: 10%;
-    background-color: black;
+    background-color: darkgrey;
 }
+
+.info-content {
+    max-width: 100%;
+    transition: max-width 1s ease-in;
+}
+
+/*.info-content.is-hidden {*/
+    /*max-width: 0;*/
+    /*padding: 0 !important;*/
+    /*overflow: hidden;*/
+/*}*/
+
+
 
 /*ul li {*/
     /*max-width: 50px;*/
