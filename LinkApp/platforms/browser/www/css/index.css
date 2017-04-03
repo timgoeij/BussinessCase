@@ -137,22 +137,13 @@ body {
 #btn-container::before {
     content: "";
     position: absolute;
-<<<<<<< HEAD
-<<<<<<< HEAD
     transition: all 1s ease-in-out;
     transition-delay: 1s;
     height: 0;
-=======
-    height: 200px;
->>>>>>> parent of 830413e... add button listener
-=======
-    height: 250px;
->>>>>>> refs/remotes/origin/master
     width: 2px;
     top: 50px;
     z-index: 10;
     left: 10%;
-<<<<<<< HEAD
     background-color: black;
 }
 
@@ -181,37 +172,3 @@ body {
     /*max-width: 100px;*/
     /*max-height: 100px;*/
 /*}*/
-=======
-    background-color: red;
-<<<<<<< HEAD
-}
-
-ul li {
-    max-width: 50px;
-    width: 50px;
-    height: 50px;
-    background-color: black;
-    display: inline-block;
-    margin-left: 10px;
-    transition: all 0.3s;
-}
-
-.is-hidden {
-    max-width: 0;
-}
-
-.contact__info {
-    max-width: 0;
-    max-height: 0;
-    background-color: red;
-    overflow: hidden;
-}
-
-.is-selected {
-    max-width: 100px;
-    max-height: 100px;
-}
->>>>>>> parent of 830413e... add button listener
-=======
-}
->>>>>>> refs/remotes/origin/master

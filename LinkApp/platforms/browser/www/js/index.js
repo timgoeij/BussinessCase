@@ -84,8 +84,6 @@ var app = {
 
         var target = e.currentTarget;
 
-        console.log(target);
-
         for(var i = 0; i < contacts.length; i++)
         {
             if(target.isSameNode(contacts[i].object))
