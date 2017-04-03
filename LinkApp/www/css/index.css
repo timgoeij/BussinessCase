@@ -115,21 +115,95 @@ body {
     content: "";
     position: absolute;
     height: 2px;
-    width: 20%;
     top: 50px;
-    left: 10%;
     z-index: 10;
-    background-color: red;
+    background-color: black;
     transform: rotate(180deg);
+    transition: all 1s ease-in-out;
+    left: 50%;
+    width: 1%;
+}
+
+.is-open#btn-container::after {
+    left: 10%;
+    width: 40%;
+}
+
+.is-open#btn-container::before {
+    height: 250px;
+    top: -200px;
 }
 
 #btn-container::before {
     content: "";
     position: absolute;
-    height: 250px;
+    transition: all 1s ease-in-out;
+    transition-delay: 1s;
+    height: 0;
     width: 2px;
-    top: -200px;
+    top: 50px;
     z-index: 10;
     left: 10%;
-    background-color: red;
+<<<<<<< HEAD
+    background-color: black;
 }
+
+/*ul li {*/
+    /*max-width: 50px;*/
+    /*width: 50px;*/
+    /*height: 50px;*/
+    /*background-color: black;*/
+    /*display: inline-block;*/
+    /*margin-left: 10px;*/
+    /*transition: all 0.3s;*/
+/*}*/
+
+/*.is-hidden {*/
+    /*max-width: 0;*/
+/*}*/
+
+/*.contact__info {*/
+    /*max-width: 0;*/
+    /*max-height: 0;*/
+    /*background-color: red;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*.is-selected {*/
+    /*max-width: 100px;*/
+    /*max-height: 100px;*/
+/*}*/
+=======
+    background-color: red;
+<<<<<<< HEAD
+}
+
+ul li {
+    max-width: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.is-hidden {
+    max-width: 0;
+}
+
+.contact__info {
+    max-width: 0;
+    max-height: 0;
+    background-color: red;
+    overflow: hidden;
+}
+
+.is-selected {
+    max-width: 100px;
+    max-height: 100px;
+}
+>>>>>>> parent of 830413e... add button listener
+=======
+}
+>>>>>>> refs/remotes/origin/master
