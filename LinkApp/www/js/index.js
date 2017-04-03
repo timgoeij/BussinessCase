@@ -47,9 +47,11 @@ var app = {
         console.log('Received Event: ' + id);
 
         var contactContainer = document.getElementById("contacts");
+        var contactButton = document.getElementById("btn-contact");
 
         contactContainer.addEventListener("touchStart", this.liTouchStart);
         contactContainer.addEventListener("touchEnd", this.liTouchEnd);
+        contactButton.addEventListener("click", this.buttonClickHandler)
 
 
         var contact1 = new Contact("Klaas", "img/logo.png");
@@ -59,8 +61,6 @@ var app = {
         contacts.push(contact1);
         contacts.push(contact2);
         contacts.push(contact3);
-
-        console.log(contacts.length);
 
         for(var i = 0; i < contacts.length; i++)
         {
@@ -84,8 +84,6 @@ var app = {
 
         var target = e.currentTarget;
 
-        console.log(target);
-
         for(var i = 0; i < contacts.length; i++)
         {
             if(target.isSameNode(contacts[i].object))
@@ -99,6 +97,16 @@ var app = {
                 contacts[i].object.classList.toggle("is-hidden");
             }
         }
+    },
+
+    buttonClickHandler: function (e) {
+
+        e.preventDefault();
+
+        var target = e.currentTarget;
+
+        target.classList.toggle("is-open");
+        target.parentNode.classList.toggle("is-open");
     }
 };
 
