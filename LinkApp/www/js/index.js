@@ -51,16 +51,22 @@ var app = {
 
         contactContainer.addEventListener("touchStart", this.liTouchStart);
         contactContainer.addEventListener("touchEnd", this.liTouchEnd);
-        contactButton.addEventListener("click", this.buttonClickHandler)
+        contactButton.addEventListener("click", this.buttonClickHandler);
 
 
-        var contact1 = new Contact("Klaas", "img/logo.png");
-        var contact2 = new Contact("Klaas", "img/logo.png");
-        var contact3 = new Contact("Klaas", "img/logo.png");
+        var contact1 = new Contact("Klaas", "img/Klaas.jpg");
+        var contact2 = new Contact("Evert", "img/Evert.jpg");
+        var contact3 = new Contact("Jesse", "img/Jesse.jpg");
+        var contact4 = new Contact("Annet", "img/Annet.jpg");
+        var contact5 = new Contact("Thomas", "img/Thomas.jpg");
+        var contact6 = new Contact("Doortje", "img/Doortje.jpg");
 
         contacts.push(contact1);
         contacts.push(contact2);
         contacts.push(contact3);
+        contacts.push(contact4);
+        contacts.push(contact5);
+        contacts.push(contact6);
 
         for(var i = 0; i < contacts.length; i++)
         {
@@ -104,9 +110,14 @@ var app = {
         e.preventDefault();
 
         var target = e.currentTarget;
+        var list = document.getElementById("contacts");
+        var container = document.getElementById("contacts-container");
 
         target.classList.toggle("is-open");
         target.parentNode.classList.toggle("is-open");
+        list.classList.toggle("is-open");
+        container.classList.toggle("is-open");
+
     }
 };
 
