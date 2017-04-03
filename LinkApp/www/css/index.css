@@ -175,6 +175,7 @@ body {
 /*}*/
 =======
     background-color: red;
+<<<<<<< HEAD
 }
 
 ul li {
@@ -203,3 +204,6 @@ ul li {
     max-height: 100px;
 }
 >>>>>>> parent of 830413e... add button listener
+=======
+}
+>>>>>>> refs/remotes/origin/master

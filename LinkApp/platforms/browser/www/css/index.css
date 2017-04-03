@@ -138,12 +138,16 @@ body {
     content: "";
     position: absolute;
 <<<<<<< HEAD
+<<<<<<< HEAD
     transition: all 1s ease-in-out;
     transition-delay: 1s;
     height: 0;
 =======
     height: 200px;
 >>>>>>> parent of 830413e... add button listener
+=======
+    height: 250px;
+>>>>>>> refs/remotes/origin/master
     width: 2px;
     top: 50px;
     z-index: 10;
@@ -179,6 +183,7 @@ body {
 /*}*/
 =======
     background-color: red;
+<<<<<<< HEAD
 }
 
 ul li {
@@ -207,3 +212,6 @@ ul li {
     max-height: 100px;
 }
 >>>>>>> parent of 830413e... add button listener
+=======
+}
+>>>>>>> refs/remotes/origin/master

@@ -37,8 +37,13 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkApp/www/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="3042">
               <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+=======
+            <state relative-caret-position="396">
+              <caret line="134" column="1" lean-forward="false" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+>>>>>>> refs/remotes/origin/master
               <folding />
             </state>
           </provider>
@@ -47,8 +52,13 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkApp/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="364">
               <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+=======
+            <state relative-caret-position="406">
+              <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
+>>>>>>> refs/remotes/origin/master
               <folding />
             </state>
           </provider>
@@ -81,8 +91,13 @@
       <list>
         <option value="$PROJECT_DIR$/LinkApp/config.xml" />
         <option value="$PROJECT_DIR$/LinkApp/www/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/LinkApp/www/js/index.js" />
         <option value="$PROJECT_DIR$/LinkApp/www/js/Contact.js" />
+=======
+        <option value="$PROJECT_DIR$/LinkApp/www/js/Contact.js" />
+        <option value="$PROJECT_DIR$/LinkApp/www/js/index.js" />
+>>>>>>> refs/remotes/origin/master
         <option value="$PROJECT_DIR$/LinkApp/www/css/index.css" />
       </list>
     </option>
@@ -122,8 +137,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> refs/remotes/origin/master
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,6 +298,11 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> refs/remotes/origin/master
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,13 +428,22 @@
       <workItem from="1491043685934" duration="35000" />
       <workItem from="1491080255549" duration="228000" />
       <workItem from="1491129867183" duration="10389000" />
+<<<<<<< HEAD
       <workItem from="1491245220587" duration="37000" />
       <workItem from="1491245332178" duration="50000" />
+=======
+      <workItem from="1491241190954" duration="3416000" />
+      <workItem from="1491244682535" duration="66000" />
+>>>>>>> refs/remotes/origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="27353000" />
+=======
+    <option name="totallyTimeSpent" value="30748000" />
+>>>>>>> refs/remotes/origin/master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,7 +464,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.48701298" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33975086" sideWeight="0.4699248" order="9" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33975086" sideWeight="0.4699248" order="9" side_tool="false" content_ui="tabs" />
+>>>>>>> refs/remotes/origin/master
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.4978355" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -465,8 +501,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkApp/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3654">
           <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+=======
+        <state relative-caret-position="3381">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="2" />
+>>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
@@ -481,8 +522,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkApp/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1764">
           <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+=======
+        <state relative-caret-position="1953">
+          <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
+>>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
@@ -497,7 +543,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkApp/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2121">
+=======
+        <state relative-caret-position="1764">
+>>>>>>> refs/remotes/origin/master
           <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
           <folding />
         </state>
@@ -513,8 +563,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkApp/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2814">
           <caret line="134" column="1" lean-forward="false" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+=======
+        <state relative-caret-position="2940">
+          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+>>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
@@ -805,26 +860,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkApp/www/js/index.js">
+    <entry file="file://$PROJECT_DIR$/LinkApp/www/js/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="364">
           <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+=======
+        <state relative-caret-position="504">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+>>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkApp/www/js/Contact.js">
+    <entry file="file://$PROJECT_DIR$/LinkApp/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="504">
           <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+=======
+        <state relative-caret-position="406">
+          <caret line="110" column="54" lean-forward="false" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
+>>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkApp/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="3042">
           <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+=======
+        <state relative-caret-position="396">
+          <caret line="134" column="1" lean-forward="false" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+>>>>>>> refs/remotes/origin/master
           <folding />
         </state>
       </provider>
