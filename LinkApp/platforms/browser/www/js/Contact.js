@@ -19,9 +19,8 @@ function Contact(name, imgSrc)  {
         headerContent.appendChild(header);
 
         this.infoContent = document.createElement("div");
-        this.infoContent.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis eos esse est excepturi " +
-            "facere impedit ipsam, labore nam, natus placeat quas soluta vel veniam! Autem fugit ipsa minima numquam provident!";
-
+        //this.infoContent.innerHTML = "Lorem ipsum dolor sit amet";
+        this.infoContent.classList.add("info-content");
         this.infoContent.classList.add("is-hidden");
 
         this.object.appendChild(headerContent);

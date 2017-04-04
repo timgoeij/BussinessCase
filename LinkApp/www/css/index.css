@@ -55,6 +55,7 @@ body {
 
 #contacts-container {
     width: 100%;
+    margin-top: 50px;
 }
 
 #contacts {
@@ -170,8 +171,8 @@ body {
 }
 
 .is-open#btn-container::before {
-    height: 820px;
-    top: -770px;
+    height: 595px;
+    top: -545px;
 }
 
 #btn-container::before {
